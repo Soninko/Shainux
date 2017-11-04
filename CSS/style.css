@@ -1,0 +1,414 @@
+/* POLICE LOBSTER */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body{
+  font-family: 'Lobster', cursive;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.container-fluid{
+  padding: 0;
+}
+
+.container{
+  padding: 0;
+}
+/* HEADER */
+
+.header{
+  background-color: #DC143C;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  z-index: 1;
+}
+.logo{
+  float: left;
+  text-transform: capitalize;
+  color:black;
+}
+
+.logo:hover{
+  color:white;
+}
+
+.menu{
+float: right;
+}
+
+.menu a:hover{
+  color:white;
+}
+
+.menu a {
+  margin-right:90px;
+  text-transform: capitalize;
+  color:black;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+/* FIN HEADER */
+
+/* BANNIERE */
+.banner{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner{
+  position: absolute;
+  top:30%;
+  left:2%;
+  width: 100%;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.inner-banner h1{
+  color:black;
+  text-shadow: 5px 10px 15px white;
+  font-size: 50px;
+}
+.inner-banner h1:hover{
+  color: white;
+}
+
+blockquote{
+  font-size: 50px;
+  color:black;
+  text-shadow: 5px 10px 15px white;
+}
+
+blockquote:hover{
+  color:white;
+}
+/* FIN BANNIERE */
+
+/* HISTOIRE ET QUESTIONS */
+
+.propos{
+  height: 2600px;
+  background-color: white;
+}
+
+.info{
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: 2.75rem;
+}
+
+h3{
+  font-size: 2.75rem;
+}
+h4{
+  font-size: 2.75rem;
+}
+
+h5{
+  font-size: 2.75rem;
+}
+
+h6{
+  font-size: 2.75rem;
+}
+
+#profond{
+  font-size: 2.75rem;
+}
+p{
+  font-size: 20px;
+}
+
+/* FIN  HISTOIRE ET QUESTIONS */
+
+/* FORMULES */
+
+.formule{
+height: 900px;
+}
+
+.form{
+  font-size: 2.75rem;
+  position: relative;
+  right:-1%;
+  text-decoration: underline;
+}
+
+.all{
+  display: flex;
+justify-content: space-around;
+}
+.formules{
+  height: 600px;
+  width: 400px;
+  border: 3px solid black;
+  border-radius: 50px/50px;
+  box-shadow: 10px 10px 2px black;
+}
+
+.set{
+  font-size: 2.75rem;
+}
+
+.ini{
+  font-size: 2.75rem;
+}
+
+.jun{
+  font-size: 2.75rem;
+}
+
+.adult{
+  font-size: 2.75rem;
+}
+
+.sen{
+  font-size: 2.75rem;
+}
+
+/* FIN FORMULES */
+
+/* CONTACT */
+.contact{
+  height: 900px;
+}
+.separation{
+  height: 500px;
+  border-right: 3px solid black;
+  position: relative;
+  right:50%;
+  top:-52%;
+}
+
+.const{
+  font-size: 2.75rem;
+  position: relative;
+  right:26%;
+}
+
+#bow{
+  font-size: 2.75rem;
+  position: relative;
+  left:22%;
+  top:-117%;
+}
+
+#formulaire{
+  position: relative;
+  left:55%;
+  top:-117%;
+}
+.maps{
+position: relative;
+left:7%;
+}
+
+input[type="text"]{
+  width: 40%;
+}
+
+input[type="number"]{
+  width: 40%;
+}
+
+input[type="email"]{
+  width: 40%;
+}
+
+textarea{
+  width: 40%;
+}
+
+/* FIN CONTACT */
+
+/* FOOTER */
+.footer{
+  height: 900px;
+  background-color: #DC143C;
+}
+.biscottes{
+  position: relative;
+  top:-24%;
+}
+.separator{
+  height:600px;
+  border-right: 3px solid black;
+  margin-right: 50%;
+  position: relative;
+  top:5%;
+}
+
+.partenaire{
+  font-size: 2.75rem;
+  position: relative;
+  right:24%;
+  top:-55%;
+}
+
+.sociaux{
+  font-size: 2.75rem;
+  position: relative;
+  left:25%;
+  top:-99%;
+}
+#icones{
+ color:black;
+ font-size:70px;
+ position:relative;
+ left:65%;
+ top:-699px;
+}
+
+#icones:hover {
+	transition: 0.5s;
+	color: white;
+	text-shadow: 3px 3px 10px white;
+}
+#weed{
+  color:black;
+  font-size:70px;
+  position: relative;
+  left:239px;
+  top:-489px;
+}
+
+#weed:hover {
+	transition: 0.5s;
+	color: white;
+	text-shadow: 3px 3px 10px white;
+}
+/* FIN FOOTER */
+
+/* MEDIA QUERIES */
+@media screen and (max-width:1024px) {
+  .menu a {
+    display: none;
+  }
+
+h1{
+  display: none;
+}
+
+blockquote{
+  display: none;
+}
+.propos{
+  height: 3400px;
+  background-color: white;
+}
+.formule{
+  height: 2100px;
+}
+.separation{
+  display: none;
+}
+.contact{
+  height: 2000px;
+}
+.const{
+  position:relative;
+  left:0;
+}
+
+.maps{
+  position: relative;
+  left:0;
+  width: 600px;
+}
+
+#formulaire{
+  position: relative;
+  top:12%;
+  left:15%;
+}
+
+#bow{
+  position: relative;
+  top:10%;
+  left:-2%;
+}
+
+input[type="text"]{
+  width: 80%;
+}
+
+input[type="number"]{
+  width: 80%;
+}
+
+input[type="email"]{
+  width: 80%;
+}
+
+textarea{
+  width: 80%;
+}
+
+.all{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left:19%;
+  margin-top: 150%;
+  height:100px;
+  width: 100px;
+}
+.separator{
+  display: none;
+}
+
+.footer{
+  height: 1300px;
+}
+
+.partenaire{
+  position: relative;
+  top:8%;
+  left:1%;
+}
+
+#weed{
+  font-size: 50px;
+  position: relative;
+  top:150px;
+  left:120px;
+}
+
+.sociaux{
+  position: relative;
+  top:25%;
+  left:20px;
+}
+
+#icones{
+  position: relative;
+  top:700px;
+  left:120px;
+  font-size: 50px;
+}
+
+.formules{
+  margin-top: 30px;
+}
+
+}
